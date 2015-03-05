@@ -1,6 +1,13 @@
 # Kony-verifone-e335-Integration
-FFI code to integrate with verifone payment sledge devices for credit card and barcode reader
+The sample kony project contains FFI to showcase integration with <b>verifone payware e335</b>
+It also has ffi code for
+   <b> AirPrint, 
+    SignatureCapture,
+    Barcode scanning using native camera </b>
+It also show cases xml services on how to <b>submit a payment to the gateway.</b>
 
+Information about payware devices
+---------------------------------
 The ffi code helps in integrating with verifone devices like payware mobile e335.
 http://www.verifone.com/products/hardware/mobile/payware-mobile-e335/
 
