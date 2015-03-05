@@ -1,0 +1,26 @@
+{
+	"AS_FlexContainer_757579314e364cc9879e0a2092f9a863": {
+		"id": "AS_FlexContainer_757579314e364cc9879e0a2092f9a863",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "NAVIGATE_TO_FORM__onTouchEnd_4da519cb806e41449754e2542cab12e8",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "frmItemLookup",
+				"formKUID": "70d409d35f834a329b04e5e31bf5fe4e"
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled__onTouchEnd_e4f223d1967a42029b544523232559b2",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "frmItemLookup",
+				"widgetId": "flexSearchResults",
+				"propertyName": "isVisible",
+				"propertyValue": "false",
+				"itemKUID": "70d409d35f834a329b04e5e31bf5fe4e",
+				"widgetKUID": "571c7e4e4c964008a21df7e02d2588e5",
+				"isSkinProperty": false
+			}
+		]
+	}
+}

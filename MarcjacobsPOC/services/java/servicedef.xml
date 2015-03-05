@@ -1,0 +1,21 @@
+<application desc="" id="Marcjacobs" name="" smscode="">
+   <app-config>
+      <config-param name="APP_SMS_HEADER" value="null"/>
+   </app-config>
+   <services>
+      <service cachable="false" cacheduration="" id="TestConnection" smscode="" smsenabled="false" type="javaConnector">
+         <service-config>
+            <config-param name="className" value="com.kony.MJ.services.TestConnection"/>
+            <config-param name="methodName" value="test"/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="sockettimeout" value=""/>
+         </service-config>
+         <service-input/>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+   </services>
+</application>

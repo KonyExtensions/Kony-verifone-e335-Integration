@@ -1,0 +1,20 @@
+{
+	"AS_Button_a6cc919ae66c41549c6d7f98c46a5f97": {
+		"id": "AS_Button_a6cc919ae66c41549c6d7f98c46a5f97",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled__onTouchEnd_a31b7616db7546c4bc8ffd5f9f4e8acf",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "frmItemLookup",
+				"widgetId": "flexSearchResults",
+				"propertyName": "isVisible",
+				"propertyValue": "true",
+				"itemKUID": "70d409d35f834a329b04e5e31bf5fe4e",
+				"widgetKUID": "571c7e4e4c964008a21df7e02d2588e5",
+				"isSkinProperty": false
+			}
+		]
+	}
+}

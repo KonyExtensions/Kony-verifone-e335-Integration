@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>payment</group>
+        <headerparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue>text/xml</defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>Content-Type</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>text/xml</testvalue>
+            <value></value>
+        </headerparam>
+        <httpmethod>POST</httpmethod>
+        <id>paymentTransaction</id>
+        <identityProvider></identityProvider>
+        <identityProviderName></identityProviderName>
+        <ignoreProxy>false</ignoreProxy>
+        <intemplate>&lt;TRANSACTION&gt; 
+    &lt;FUNCTION_TYPE&gt;PAYMENT&lt;/FUNCTION_TYPE&gt; 
+    &lt;PAYMENT_TYPE&gt;CREDIT&lt;/PAYMENT_TYPE&gt; 
+    &lt;COMMAND&gt;SALE&lt;/COMMAND&gt; 
+    &lt;CLIENT_ID&gt;12581700010001&lt;/CLIENT_ID&gt; 
+    &lt;DEVTYPE&gt;POSAPP&lt;/DEVTYPE&gt; 
+    &lt;SERIAL_NUM&gt;12581700010001_Test386&lt;/SERIAL_NUM&gt; 
+    &lt;DEVICEKEY&gt;9954C138-6D5A-4206-A32C-89B127C281CB7D8AE6D2-B491-42C9-ABC7-E036&lt;/DEVICEKEY&gt; 
+    &lt;ACCT_NUM&gt;4788259280958291&lt;/ACCT_NUM&gt; 
+    &lt;EXP_MONTH&gt;11&lt;/EXP_MONTH&gt; 
+    &lt;EXP_YEAR&gt;20&lt;/EXP_YEAR&gt; 
+    &lt;PRESENT_FLAG&gt;2&lt;/PRESENT_FLAG&gt; 
+    &lt;INVOICE&gt;123456&lt;/INVOICE&gt; 
+    &lt;TRANS_AMOUNT&gt;1.00&lt;/TRANS_AMOUNT&gt; 
+&lt;/TRANSACTION&gt;
+</intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;RESPONSE RSA="0" RSV="0"&gt;
+   &lt;CLIENT_ID&gt;12581700010001&lt;/CLIENT_ID&gt;
+   &lt;COMMAND&gt;SALE&lt;/COMMAND&gt;
+   &lt;DUP_ACCT_NUM&gt;478825******8291&lt;/DUP_ACCT_NUM&gt;
+   &lt;DUP_AUTH_CODE&gt;091512&lt;/DUP_AUTH_CODE&gt;
+   &lt;DUP_CTROUTD&gt;32&lt;/DUP_CTROUTD&gt;
+   &lt;DUP_INVOICE&gt;123456&lt;/DUP_INVOICE&gt;
+   &lt;DUP_PAYMENT_MEDIA&gt;VISA&lt;/DUP_PAYMENT_MEDIA&gt;
+   &lt;DUP_TRANS_AMOUNT&gt;1.00&lt;/DUP_TRANS_AMOUNT&gt;
+   &lt;DUP_TRANS_DATE&gt;2015.02.09&lt;/DUP_TRANS_DATE&gt;
+   &lt;DUP_TRANS_TIME&gt;07:27:05&lt;/DUP_TRANS_TIME&gt;
+   &lt;DUP_TROUTD&gt;6216268&lt;/DUP_TROUTD&gt;
+   &lt;INTRN_SEQ_NUM&gt;6217580&lt;/INTRN_SEQ_NUM&gt;
+   &lt;INVOICE&gt;123456&lt;/INVOICE&gt;
+   &lt;PAYMENT_TYPE&gt;CREDIT&lt;/PAYMENT_TYPE&gt;
+   &lt;RESPONSE_TEXT&gt;Duplicate transaction based on account/invoice/amount combination &lt;/RESPONSE_TEXT&gt;
+   &lt;RESULT_CODE&gt;6&lt;/RESULT_CODE&gt;
+   &lt;STATUS_CODE&gt;6&lt;/STATUS_CODE&gt;
+   &lt;TERMINATION_STATUS&gt;SUCCESS&lt;/TERMINATION_STATUS&gt;
+   &lt;TRANS_AMOUNT&gt;1.00&lt;/TRANS_AMOUNT&gt;
+   &lt;LPTOKEN&gt;246243&lt;/LPTOKEN&gt;
+&lt;/RESPONSE&gt;
+</outtemplate>
+        <outTemplateHeader>X-AspNet-Version: 2.0.50727
+Date: Mon, 09 Feb 2015 19:11:14 GMT
+Content-Length: 1000
+Content-Type: text/xml; charset=utf-8
+Server: Microsoft-IIS/7.5
+Cache-Control: private
+</outTemplateHeader>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>https://apidemo.ipcharge.net/ipchapi/rh.aspx</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

@@ -1,0 +1,20 @@
+{
+	"AS_Button_ae69e05ecde74322a4dd7c1a708e7e46": {
+		"id": "AS_Button_ae69e05ecde74322a4dd7c1a708e7e46",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled__onClick_9ae965e2417d40eba24da1c4a9da2891",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "frmItemLookup",
+				"widgetId": "flexSearchResults",
+				"propertyName": "isVisible",
+				"propertyValue": "true",
+				"itemKUID": "70d409d35f834a329b04e5e31bf5fe4e",
+				"widgetKUID": "571c7e4e4c964008a21df7e02d2588e5",
+				"isSkinProperty": false
+			}
+		]
+	}
+}

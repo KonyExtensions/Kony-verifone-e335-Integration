@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>payment</group>
+        <headerparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue>text/xml</defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>Content-Type</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>text/xml</testvalue>
+            <value></value>
+        </headerparam>
+        <httpmethod>POST</httpmethod>
+        <id>deviceKeySetup</id>
+        <identityProvider></identityProvider>
+        <identityProviderName></identityProviderName>
+        <ignoreProxy>false</ignoreProxy>
+        <intemplate>&lt;TRANSACTION&gt; 
+    &lt;FUNCTION_TYPE&gt;ADMIN&lt;/FUNCTION_TYPE&gt; 
+    &lt;COMMAND&gt;SETUP_REQUEST_V2&lt;/COMMAND&gt; 
+    &lt;CLIENT_ID&gt;12581700010001&lt;/CLIENT_ID&gt; 
+    &lt;DEVTYPE&gt;POSAPP&lt;/DEVTYPE&gt; 
+    &lt;SERIAL_NUM&gt;10000000000000000000&lt;/SERIAL_NUM&gt; 
+    &lt;DEVICEKEY /&gt; 
+&lt;/TRANSACTION&gt;
+</intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;RESPONSE&gt;
+   &lt;HEADER/&gt;
+   &lt;ADMIN COMMAND="SETUP_RESPONSEV2"&gt;
+      &lt;HEADERS/&gt;
+      &lt;FOOTERS/&gt;
+      &lt;DISCLAIMERS/&gt;
+      &lt;CARD_TYPES&gt;
+         &lt;CARD_TYPE ENABLED="1"&gt;VISA&lt;/CARD_TYPE&gt;
+         &lt;CARD_TYPE ENABLED="1"&gt;MC&lt;/CARD_TYPE&gt;
+         &lt;CARD_TYPE ENABLED="1"&gt;AMEX&lt;/CARD_TYPE&gt;
+         &lt;CARD_TYPE ENABLED="1"&gt;DISC&lt;/CARD_TYPE&gt;
+         &lt;CARD_TYPE ENABLED="1"&gt;CBLN&lt;/CARD_TYPE&gt;
+         &lt;CARD_TYPE ENABLED="1"&gt;JAL&lt;/CARD_TYPE&gt;
+         &lt;CARD_TYPE ENABLED="1"&gt;JCB&lt;/CARD_TYPE&gt;
+         &lt;CARD_TYPE ENABLED="1"&gt;ENRT&lt;/CARD_TYPE&gt;
+         &lt;CARD_TYPE ENABLED="1"&gt;DCCB&lt;/CARD_TYPE&gt;
+         &lt;CARD_TYPE ENABLED="1"&gt;SWCH&lt;/CARD_TYPE&gt;
+         &lt;CARD_TYPE ENABLED="1"&gt;UNKW&lt;/CARD_TYPE&gt;
+         &lt;CARD_TYPE ENABLED="0"&gt;ALL&lt;/CARD_TYPE&gt;
+         &lt;CARD_TYPE ENABLED="0"&gt;PRIV_LBL&lt;/CARD_TYPE&gt;
+      &lt;/CARD_TYPES&gt;
+      &lt;SUPPORTED_FUNCTIONS&gt;
+         &lt;SUPPORTED_FUNCTION ID="CREDIT" PROCESSOR_ID="PYMT"&gt;
+            &lt;TRANSACTION_TYPES&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;ADD_TIP&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;BALANCE&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;COMMERCIAL&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;COMPLETION&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;CREDIT&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;POST_AUTH&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;PRE_AUTH&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;RESET_TIP&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;SALE&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;SIGNATURE&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;VOICE_AUTH&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;VOID&lt;/TRANSACTION_TYPE&gt;
+            &lt;/TRANSACTION_TYPES&gt;
+         &lt;/SUPPORTED_FUNCTION&gt;
+         &lt;SUPPORTED_FUNCTION ID="DEBIT" PROCESSOR_ID="PYMT"&gt;
+            &lt;TRANSACTION_TYPES&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;CREDIT&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;SALE&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;VOID&lt;/TRANSACTION_TYPE&gt;
+            &lt;/TRANSACTION_TYPES&gt;
+         &lt;/SUPPORTED_FUNCTION&gt;
+         &lt;SUPPORTED_FUNCTION ID="GIFT" PROCESSOR_ID="PYMT"&gt;
+            &lt;TRANSACTION_TYPES&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;ACTIVATE&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;ADD_TIP&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;ADD_VALUE&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;BALANCE&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;COMPLETION&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;CREDIT&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;DEACTIVATE&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;GIFT_CLOSE&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;PRE_AUTH&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;REGISTER&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;SALE&lt;/TRANSACTION_TYPE&gt;
+               &lt;TRANSACTION_TYPE ENABLED="0"&gt;VOID&lt;/TRANSACTION_TYPE&gt;
+            &lt;/TRANSACTION_TYPES&gt;
+         &lt;/SUPPORTED_FUNCTION&gt;
+      &lt;/SUPPORTED_FUNCTIONS&gt;
+      &lt;CLIENT_ID&gt;12581700010001&lt;/CLIENT_ID&gt;
+      &lt;DEVICEKEY&gt;1YUdgPicLKGxLAa75l7672H5XcWeA4P4MlQ5xGiuP3ibK346Bqjic5KasUWBjNbk&lt;/DEVICEKEY&gt;
+      &lt;TERMINAL_NAME/&gt;
+      &lt;STATUS&gt;1&lt;/STATUS&gt;
+   &lt;/ADMIN&gt;
+&lt;/RESPONSE&gt;
+</outtemplate>
+        <outTemplateHeader>X-AspNet-Version: 2.0.50727
+Date: Tue, 27 Jan 2015 15:22:39 GMT
+Content-Length: 3147
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/7.5
+Cache-Control: private
+</outTemplateHeader>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>https://apidemo.ipcharge.net/ipchapi/rh.aspx</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

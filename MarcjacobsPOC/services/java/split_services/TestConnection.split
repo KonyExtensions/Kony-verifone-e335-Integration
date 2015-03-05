@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jServiceRoot>
+    <appSmsCode></appSmsCode>
+    <javaservice>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <classname>com.kony.MJ.services.TestConnection</classname>
+        <id>TestConnection</id>
+        <operationname>test</operationname>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+    </javaservice>
+</jServiceRoot>

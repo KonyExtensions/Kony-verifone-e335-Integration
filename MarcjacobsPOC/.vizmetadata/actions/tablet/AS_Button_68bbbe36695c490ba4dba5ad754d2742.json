@@ -1,0 +1,14 @@
+{
+	"AS_Button_68bbbe36695c490ba4dba5ad754d2742": {
+		"id": "AS_Button_68bbbe36695c490ba4dba5ad754d2742",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "NAVIGATE_TO_FORM__onTouchEnd_c68aab67e3a84db99a6d2da6e3e08e67",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "frmEditCustomer",
+				"formKUID": "2f58f8a1fb624b129d7a381baa8385a3"
+			}
+		]
+	}
+}

@@ -1,0 +1,371 @@
+{
+    "forms": {
+        "tablet": {
+            "04b7b33643f34d72b1067759c7ba28df": {
+                "04b7b33643f34d72b1067759c7ba28df": {
+                    "platforms": {
+                        "android": {},
+                        "ipad": {
+                            "psp": {}
+                        },
+                        "spaandroidtablet": {},
+                        "spaipad": {},
+                        "spawindowstablet": {},
+                        "windows8": {}
+                    }
+                },
+                "0d97bb896e754cabb6ebcdbe83c965e3": {},
+                "559e7d71787041be93ef605d1908c2ba": {},
+                "623a11d38366456d9078919cf064ed25": {},
+                "a046cc1ddfc34abc8e1cdc1c48c382e2": {},
+                "a22fca2b91df452280de057f46f6b6a5": {
+                    "onClick": "AS_Button_d4d30ae7007b47d49e463ccdf65f4634"
+                },
+                "ba209e32053e4a64911461ccb6060162": {},
+                "dc7b2cc1682a4b02bf406ba3be03f41c": {}
+            },
+            "2f58f8a1fb624b129d7a381baa8385a3": {
+                "07fbbe65ffe1481a843892888eb16a21": {},
+                "0bff30b4ab184f7592c97ae00aadc03b": {},
+                "17d6711eed4b4108bd5d8e74eaf6eddf": {},
+                "1845d353cfaf4dd7bf794b42b0878e7f": {},
+                "19e7c5313ad24a64b8d6e9038c9acc24": {
+                    "platforms": {
+                        "ipad": {
+                            "psp": {}
+                        }
+                    }
+                },
+                "1be259061f7348749c2c2724af495e2c": {},
+                "289bcc9838bd447fa8834398ff5d8ff5": {},
+                "29f9031fa0374e1f9cebee90bb122d83": {},
+                "2e28abcdc45e4de7bbf46987ce8f1ea4": {
+                    "onTouchEnd": "AS_Button_673d0720668746838867af7e26c149c2"
+                },
+                "2e59f1b48a1e4598b419ed98051cb8b5": {
+                    "onTouchEnd": "AS_Button_b60c3167236f4389ac9a3a1221f2d8ab"
+                },
+                "2f58f8a1fb624b129d7a381baa8385a3": {
+                    "platforms": {
+                        "android": {},
+                        "ipad": {
+                            "psp": {}
+                        },
+                        "spaandroidtablet": {},
+                        "spaipad": {},
+                        "spawindowstablet": {},
+                        "windows8": {}
+                    }
+                },
+                "3e2f963dbc4f424d92c0df906685a745": {},
+                "41d4f29e64d843f882972a65e80ba36d": {},
+                "51dd3e78ca064af88e2f63bc7a61da6c": {},
+                "5bbad82e61be4a1e945838007078f7aa": {
+                    "platforms": {
+                        "ipad": {
+                            "psp": {}
+                        }
+                    }
+                },
+                "744fa4e13c284a9e9cd65c5c9abe6d5c": {},
+                "7a3cbdb75d544cd6b1e3ffc8cd54cb4b": {},
+                "7ef3fdf8531a4fa995fa2944da504d81": {
+                    "platforms": {
+                        "ipad": {
+                            "psp": {}
+                        }
+                    }
+                },
+                "8578fce51acc461e9e6f3c1d081cfde3": {},
+                "8f0879875d49478e84334a239afacabc": {},
+                "929d311a0b2a4fe3b34da4544304b3c6": {
+                    "onTouchEnd": "AS_Button_4a77ecb0df474e238e81d2f6b83647cd"
+                },
+                "981340f1aca24291b23b51efad2cfa75": {},
+                "9f71f167ca06423aad6b2a7e602c3a98": {
+                    "platforms": {
+                        "ipad": {
+                            "psp": {}
+                        }
+                    }
+                },
+                "bbb7ba79e59c4ed2acd86fc6f3633691": {},
+                "c6770ed9d42447419c8db050d295f188": {},
+                "ccfe3b9af6c64e698d37a5f8ebef2a15": {},
+                "cd5fee14ebab4b2cb58ee3744e77af0c": {},
+                "d2056c890d7a4bb9813162fa1aca1c13": {},
+                "d53bc76797694b598f0146c345736fcb": {
+                    "platforms": {
+                        "ipad": {
+                            "psp": {}
+                        }
+                    }
+                },
+                "d54f4a9a0c67405fad3b070fa98b1414": {},
+                "dc2fcc737a7641cb89edbcc415e707cb": {},
+                "e1ac0335b90041dc9c9ce1d4cf187545": {},
+                "e9e895db19e84f139d0ba115767054db": {},
+                "f0ed56e1b4f64b919222dcca1d043735": {},
+                "f4ce4af68dfa4045b48f45bfa0e21eda": {},
+                "f60dacd2cf3042468de74e0500de119c": {}
+            },
+            "467a4281b80d4e2194ecae9fdff79e4f": {
+                "1a5429f0ecb34978a27d5231a503cd7a": {},
+                "467a4281b80d4e2194ecae9fdff79e4f": {
+                    "platforms": {
+                        "android": {},
+                        "ipad": {
+                            "psp": {}
+                        },
+                        "spaandroidtablet": {},
+                        "spaipad": {},
+                        "spawindowstablet": {},
+                        "windows8": {}
+                    }
+                },
+                "81e46d7c996b4ded846b8b187079daeb": {
+                    "onTouchEnd": "AS_FlexContainer_d9d0ea73bd864b788adac3ae936ec407"
+                },
+                "82ed8f0b33b448d9a3f4d20e5d3be6a7": {},
+                "96624197b2b34b2087837a2339ebf06f": {
+                    "onTouchEnd": "AS_FlexContainer_0678a751e49840ea9c5ee50c1abdd512"
+                },
+                "9c7d4a602b084a968587f3755dc729e2": {
+                    "onTouchEnd": "AS_FlexContainer_757579314e364cc9879e0a2092f9a863"
+                },
+                "9ef7da204210406cb7fc92a7a4b3a3b2": {
+                    "onTouchEnd": "AS_FlexContainer_c9414d05888b486fbdd686e3d5fe46d4"
+                },
+                "b1c90ec372f74faeb43f372c68572a02": {},
+                "c27705a6878e40efa44016d502375de2": {},
+                "f3a27ad670fa46f89ea412948e3518d3": {}
+            },
+            "70d409d35f834a329b04e5e31bf5fe4e": {
+                "06b83df98a4942d087cd0f5c2af30b90": {},
+                "087d9e6ee9f84bf3950fa5b0badf0271": {},
+                "0ba4d4cf26f64f35af1303a34393e3f1": {},
+                "13afa5162aba407d98e3e4cab9123fb4": {},
+                "16ce0ba6378c41e18dae9f6d51aa67ab": {},
+                "37920ae3564447318b97b75c15ca018d": {},
+                "3e4213b72f04446e904264b4e6c2b7b0": {},
+                "53f9142aee4b43848b92ae0590fd0dc2": {
+                    "onClick": "AS_Button_ae69e05ecde74322a4dd7c1a708e7e46",
+                    "onTouchEnd": "AS_Button_a6cc919ae66c41549c6d7f98c46a5f97"
+                },
+                "571c7e4e4c964008a21df7e02d2588e5": {},
+                "70d409d35f834a329b04e5e31bf5fe4e": {
+                    "platforms": {
+                        "android": {},
+                        "ipad": {
+                            "psp": {}
+                        },
+                        "spaandroidtablet": {},
+                        "spaipad": {},
+                        "spawindowstablet": {},
+                        "windows8": {}
+                    }
+                },
+                "85e992e20a0b4287af2880c9c89a6950": {},
+                "950d1a0871084e898eb07850a6f57a20": {},
+                "a25234df0feb40f68c8f8347cc018c00": {
+                    "platforms": {
+                        "ipad": {
+                            "psp": {}
+                        }
+                    }
+                },
+                "cc9f2c0ef45e4eb08f3ecadd80c1d66c": {},
+                "d32b9b32ec0f4ab5a6c3104a8e4aa966": {
+                    "onClick": "AS_Button_1a562027c0d14c8fa75f39c42a9e6280",
+                    "onTouchEnd": "AS_Button_89f26bf07881446fbbf6e293fa617ef0"
+                },
+                "d3daacd3bdda45cc8ae30958fbadbc18": {},
+                "ff64a80aadaf4db69510432339a8f593": {}
+            },
+            "968a541dc80349e1810f5c3da1125ad7": {
+                "09e1c6ea32864d8f9d5e79b41d03ebf5": {
+                    "onTouchEnd": "AS_Button_68bbbe36695c490ba4dba5ad754d2742"
+                },
+                "249587141bfd4d308dbd02abbab53c98": {},
+                "2e0b5a8bd9a941cd9c8365250071a8ee": {
+                    "onClick": "AS_Button_a7ebcc3179614d06b23ffea6471fd994"
+                },
+                "30af76dabfcb412b80d16a4487386009": {},
+                "32a65ca89f4440138af121d02ea74a66": {},
+                "390536f1b0fc4f718bcd96988ede917f": {},
+                "47d38eb05b6e4e8da6a1b5e5cbbfbe0c": {},
+                "65c830de2f6f45d88b5d5e1901f2642b": {},
+                "67e12bae006d4b6a82f00baca884c00d": {},
+                "6c3d00f94e8f41c18e16a5e27e135710": {},
+                "8cc19409f96f42bcb42183f066f141ef": {},
+                "968a541dc80349e1810f5c3da1125ad7": {
+                    "platforms": {
+                        "android": {},
+                        "ipad": {
+                            "psp": {}
+                        },
+                        "spaandroidtablet": {},
+                        "spaipad": {},
+                        "spawindowstablet": {},
+                        "windows8": {}
+                    }
+                },
+                "a77e736c4cc6440e9647491764d6b245": {},
+                "b8e7821595fe47fb9f6991cbd41a1db9": {},
+                "f7eee7563ced483ea06a3be395d92e30": {},
+                "fe967f71d702490b83b0d9ad7d7e5346": {
+                    "platforms": {
+                        "ipad": {
+                            "psp": {}
+                        }
+                    }
+                }
+            },
+            "c20eadf2895940ab86e1944e2671cb77": {
+                "0a9068370dcf42b7914cb43b497a3ff7": {},
+                "0bd093adb92b4391809476df67e4b417": {},
+                "24764ddc6d374420847c23b735a9ea68": {},
+                "29a55ef7cf104ca3852f12e49c60a454": {
+                    "platforms": {
+                        "ipad": {
+                            "psp": {}
+                        }
+                    }
+                },
+                "2d273b724d254c448170b1934a9e4fdb": {},
+                "328d8748a0344b518ce2c28b6870c8bc": {},
+                "367a37c89fc14157b30bb0827786ccb8": {},
+                "36af5ef717eb42ee866fbda37bc632e9": {},
+                "386cf646ee3a49dcbf1def7854f2095a": {
+                    "onTouchEnd": "AS_Button_dd84dbeb24974a29b5277ecc3a3016f8"
+                },
+                "4671017b91354522bc445b896a272e24": {},
+                "5fcfa34db79e43fea3e7374c98861b19": {},
+                "66d5659a35014295ad7914bf6d51ab2d": {},
+                "69dd2d1860e84162aee6b4cd18a09178": {},
+                "8bd160f9c1b34689a481f104e28a5d5d": {},
+                "98106bab0ad044c29a0e176162d5e305": {},
+                "9bd09307ae9e41ab9b6b656436c29cd3": {},
+                "ad7e4e9fce424bdb8fb6a4721bddcbb7": {},
+                "b284eebb4d344bf2a5e7ebc1482e9277": {},
+                "c20eadf2895940ab86e1944e2671cb77": {
+                    "platforms": {
+                        "android": {},
+                        "ipad": {
+                            "psp": {}
+                        },
+                        "spaandroidtablet": {},
+                        "spaipad": {},
+                        "spawindowstablet": {},
+                        "windows8": {}
+                    }
+                },
+                "cf2f7c84b858418a852cb5ba35ceed5c": {
+                    "onTouchEnd": "AS_Button_c22839f0d7f84c8bb808923057e7a6ff"
+                },
+                "e7500c0a111e4da3b9d6ab7d55bdb903": {},
+                "f579b1fd2dd04343a50473622e2b7ea7": {
+                    "onTouchEnd": "AS_Button_4543c703e60e4b619a8ec157cee404aa"
+                },
+                "fa2a1c7d91094f1298f4d5393bb47a70": {}
+            },
+            "e2708125ce2949449e0153f8859d3aeb": {
+                "40c18050768e434aba1924563a046c60": {},
+                "4b780e0e6d8841599c6acc023fd20c97": {},
+                "51f48a9a72fc42558734003dce0d0ab6": {},
+                "55690f0470784439bd4cdd8ba5e2732f": {},
+                "5f82c02e752b483b9af221439f211b7e": {},
+                "604e994d697b44239c7a723e397b29f7": {},
+                "610a54dacd2f40b79be958843376d646": {
+                    "onTouchEnd": "AS_Button_480c53bbae624f1b9fcda7244d5a183e"
+                },
+                "6635667b18c848459d94897963ddff08": {},
+                "6e52a44d6ac84fc7bd47e58dbc8b823c": {},
+                "74bacbc9efef4c9abb2823b2cc1c4714": {},
+                "89929f22bc824c3b95a7c8f509b264c6": {},
+                "8ea898b808004456a7e25a385696a469": {},
+                "8f85344858534eaca5ed65f545d499a2": {},
+                "91a7fc10d3b04bc5a355f8a71555c26f": {},
+                "9ecc4682f056491d8427197b35bc6e19": {},
+                "ab78e875642b4e519f401a9fe35046d0": {},
+                "b42f950d4f8f4db08d25b1aaf337a193": {},
+                "b45638917af642bea7eae3961d78b469": {},
+                "ba36f6fd1fd14eb4bf272393b3df51f5": {},
+                "bfdec9cc203a4b54a57841b93b1f9731": {
+                    "onTouchEnd": "AS_Button_e1149ee763c649c1bb7e4e201a275654"
+                },
+                "c2b0ef1b86ed4fb49db8246d76480524": {},
+                "c89be9a87e124eea9376421f75c1ac6d": {},
+                "d0b3fd98c18d4d239a801db34caed680": {},
+                "e2708125ce2949449e0153f8859d3aeb": {
+                    "platforms": {
+                        "android": {},
+                        "ipad": {
+                            "psp": {}
+                        },
+                        "spaandroidtablet": {},
+                        "spaipad": {},
+                        "spawindowstablet": {},
+                        "windows8": {}
+                    }
+                },
+                "eca06c6b32c3475b92c65079d9cad17c": {}
+            },
+            "f56f8f9569254207887ac683a7ef66c9": {
+                "027525678fca46c989f1c3b472c265f0": {},
+                "251bb8cbd6744fc9bb7d67f2db1a6b72": {},
+                "3535cbc4c66e4d64be634ae84fa3c378": {},
+                "4f2bb60d18084358958cdd2f0612c41f": {},
+                "55d45ae2706048b7865e2c68ac9e413d": {},
+                "79081e340cf342b3a75f3f7a09603bd0": {
+                    "onTouchEnd": "AS_Button_d7c88346326c463eb7a41f1982abeee9"
+                },
+                "916edb9e33eb421e86ea9ae5e3297329": {
+                    "onTouchEnd": "AS_Button_28c80bcf775c42ecba4bdae8203894c6"
+                },
+                "9a05f15cec2d4fb39e7597bb0f3c00d1": {},
+                "b0a9c66e350c4e43bc643c0df6125ec4": {},
+                "c32ac714bb3f43309160c079523c7200": {
+                    "platforms": {
+                        "ipad": {
+                            "psp": {}
+                        }
+                    }
+                },
+                "c9050b1de7d241728b67e907aed7b5f2": {},
+                "f2a0f0f772d54ade882bb48f012a411c": {},
+                "f56f8f9569254207887ac683a7ef66c9": {
+                    "platforms": {
+                        "android": {},
+                        "ipad": {
+                            "psp": {}
+                        },
+                        "spaandroidtablet": {},
+                        "spaipad": {},
+                        "spawindowstablet": {},
+                        "windows8": {}
+                    }
+                },
+                "fb1ada7b9e2f48a29c3f1affbfe87724": {}
+            }
+        }
+    },
+    "templates": {
+        "tablet": {
+            "segments": {
+                "133c578f50be4bc4a52f4c3c39712428": {
+                    "133c578f50be4bc4a52f4c3c39712428": {},
+                    "b5489a97e50947c6a7f82e919d796aa6": {}
+                },
+                "8ac294238891422aa077ea83a5d0dd8b": {
+                    "0e0f0f062ede4f73ad62a8ea12abe33a": {},
+                    "8ac294238891422aa077ea83a5d0dd8b": {}
+                },
+                "dd1dcaa0bbfb4a02bed3750a2954e8b3": {
+                    "0c40c5f9c0c245bcabea6bcb2225dbd8": {},
+                    "dd1dcaa0bbfb4a02bed3750a2954e8b3": {}
+                }
+            }
+        }
+    }
+}

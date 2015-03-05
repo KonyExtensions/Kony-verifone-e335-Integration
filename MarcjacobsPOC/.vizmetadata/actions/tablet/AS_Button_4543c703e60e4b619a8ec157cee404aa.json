@@ -1,0 +1,26 @@
+{
+	"AS_Button_4543c703e60e4b619a8ec157cee404aa": {
+		"id": "AS_Button_4543c703e60e4b619a8ec157cee404aa",
+		"type": "ACTION_SEQUENCE",
+		"actions": [
+			{
+				"id": "NAVIGATE_TO_FORM__onTouchEnd_237ca70baff44942b9ca817d7e3ef581",
+				"type": "NAVIGATE_TO_FORM",
+				"formId": "frmCustomerLookup",
+				"formKUID": "968a541dc80349e1810f5c3da1125ad7"
+			},
+			{
+				"id": "SET_FORM_WIDGET_PROPERTY_Untitled__onTouchEnd_20bf067c184e40c0a8f44c16a8d40ad4",
+				"type": "SET_WIDGET_PROPERTY",
+				"itemType": "FORM",
+				"itemId": "frmCustomerLookup",
+				"widgetId": "flexSearchResults",
+				"propertyName": "isVisible",
+				"propertyValue": "false",
+				"itemKUID": "968a541dc80349e1810f5c3da1125ad7",
+				"widgetKUID": "a77e736c4cc6440e9647491764d6b245",
+				"isSkinProperty": false
+			}
+		]
+	}
+}

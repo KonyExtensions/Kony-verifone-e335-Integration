@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="Marcjacobs" name="Marcjacobs">
+    <container isflex="false" displayname="Popup" id="CustomerLookup" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="ItemLookup" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="SelectTransaction" type="dialog"/>
+    <container isflex="false" displayname="Form" id="frmCustomerLookup" type="form">
+        <component displayname="TextBox2" id="txtBoxPhone" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxLastname" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxFirstname" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmEditCustomer" type="form">
+        <component displayname="TextBox2" id="TextField06ae8d6ed987b4b" type="textbox2"/>
+        <component displayname="TextBox2" id="TextField05cdb91ce2c4747" type="textbox2"/>
+        <component displayname="TextBox2" id="TextField0e9b84a983f644b" type="textbox2"/>
+        <component displayname="TextBox2" id="TextField0233440b87bf748" type="textbox2"/>
+        <component displayname="TextBox2" id="TextField01758b473fe1c4c" type="textbox2"/>
+        <component displayname="TextBox2" id="TextField0a23b9af84ce44c" type="textbox2"/>
+        <component displayname="TextBox2" id="CopyTextField015d5480623de4d" type="textbox2"/>
+        <component displayname="TextBox2" id="CopyTextField0a8520f42b3194c" type="textbox2"/>
+        <component displayname="TextBox2" id="CopyTextField05df2e354f41140" type="textbox2"/>
+        <component displayname="TextBox2" id="CopyTextField083f46efdee444d" type="textbox2"/>
+        <component displayname="TextBox2" id="CopyTextField0a266e75ce2d54f" type="textbox2"/>
+        <component displayname="TextBox2" id="CopyTextField0a316d24322414f" type="textbox2"/>
+        <component displayname="TextBox2" id="CopyTextField033365c19e95042" type="textbox2"/>
+        <component displayname="TextBox2" id="CopyTextField059af1803361f4d" type="textbox2"/>
+        <component displayname="TextBox2" id="CopyTextField0afbf097ec0ba49" type="textbox2"/>
+        <component displayname="TextBox2" id="CopyTextField05ada4eb16b7944" type="textbox2"/>
+        <component displayname="TextBox2" id="CopyTextField02fad85cf53c54f" type="textbox2"/>
+        <component displayname="TextBox2" id="CopyTextField077c6913e5c8d48" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmHome" type="form"/>
+    <container isflex="false" displayname="Form" id="frmItemLookup" type="form">
+        <component displayname="TextBox2" id="txtBoxDesc" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxPhone" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxLastname" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxFirstname" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmLogin" type="form">
+        <component displayname="TextBox2" id="txtBoxPassword" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxUsername" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmSaleTransaction" type="form">
+        <component displayname="TextBox2" id="TextField08c1b24c6051448" type="textbox2"/>
+        <component displayname="TextBox2" id="TextField048917a06913141" type="textbox2"/>
+        <component displayname="TextBox2" id="TextField06aad580662ef4d" type="textbox2"/>
+        <component displayname="TextBox2" id="CopyTextField02b8f8c4fffd441" type="textbox2"/>
+        <component displayname="TextBox2" id="TextField00607099132cf4f" type="textbox2"/>
+        <component displayname="TextBox2" id="TextField0c5dc3d94b61f42" type="textbox2"/>
+        <component displayname="TextBox2" id="TextField0e7b8ea2f7a814d" type="textbox2"/>
+        <component displayname="TextBox2" id="TextField0f6a5c4c157c340" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmStoreAdmin" type="form">
+        <component displayname="TextBox2" id="txtBoxStoreType" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxCity" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxState" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxTaxArea" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxCountry" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxStoreCode" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxAddr2" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxAddr1" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxStoreName" type="textbox2"/>
+        <component displayname="TextBox2" id="txtBoxStoreNumber" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmTender" type="form">
+        <component displayname="TextBox2" id="TextField00607099132cf4f" type="textbox2"/>
+        <component displayname="TextBox2" id="TextField0c5dc3d94b61f42" type="textbox2"/>
+        <component displayname="TextBox2" id="TextField0e7b8ea2f7a814d" type="textbox2"/>
+    </container>
+    <globalsequences/>
+    <skins/>
+</application>

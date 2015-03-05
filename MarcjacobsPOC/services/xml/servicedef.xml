@@ -1,0 +1,69 @@
+<application desc="" id="Marcjacobs" name="" smscode="">
+   <app-config>
+      <config-param name="APP_SMS_HEADER" value="null"/>
+   </app-config>
+   <services>
+      <service cachable="false" cacheduration="" id="deviceKeySetup" passwordencrypted="true" smscode="" smsenabled="false" type="plainxmlserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="https://apidemo.ipcharge.net/ipchapi/rh.aspx"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="http.method" value="POST"/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <header>
+               <param datatype="string" format="None" formatvalue="" name="Content-Type" sms-name="" src="request" target="" value="text/xml"/>
+            </header>
+            <template-param name="message" value="&lt;TRANSACTION&gt;&lt;FUNCTION_TYPE&gt;ADMIN&lt;/FUNCTION_TYPE&gt;&lt;COMMAND&gt;SETUP_REQUEST_V2&lt;/COMMAND&gt;&lt;CLIENT_ID&gt;12581700010001&lt;/CLIENT_ID&gt;&lt;DEVTYPE&gt;POSAPP&lt;/DEVTYPE&gt;&lt;SERIAL_NUM&gt;10000000000000000000&lt;/SERIAL_NUM&gt;&lt;DEVICEKEY /&gt;&lt;/TRANSACTION&gt;"/>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="false" cacheduration="" id="paymentTransaction" passwordencrypted="true" smscode="" smsenabled="false" type="plainxmlserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="https://apidemo.ipcharge.net/ipchapi/rh.aspx"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="http.method" value="POST"/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="ignorehttpproxy" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input>
+            <header>
+               <param datatype="string" format="None" formatvalue="" name="Content-Type" sms-name="" src="request" target="" value="text/xml"/>
+            </header>
+            <template-param name="message" value="&lt;TRANSACTION&gt;&lt;FUNCTION_TYPE&gt;PAYMENT&lt;/FUNCTION_TYPE&gt;&lt;PAYMENT_TYPE&gt;CREDIT&lt;/PAYMENT_TYPE&gt;&lt;COMMAND&gt;SALE&lt;/COMMAND&gt;&lt;CLIENT_ID&gt;12581700010001&lt;/CLIENT_ID&gt;&lt;DEVTYPE&gt;POSAPP&lt;/DEVTYPE&gt;&lt;SERIAL_NUM&gt;12581700010001_Test386&lt;/SERIAL_NUM&gt;&lt;DEVICEKEY&gt;9954C138-6D5A-4206-A32C-89B127C281CB7D8AE6D2-B491-42C9-ABC7-E036&lt;/DEVICEKEY&gt;&lt;ACCT_NUM&gt;4788259280958291&lt;/ACCT_NUM&gt;&lt;EXP_MONTH&gt;11&lt;/EXP_MONTH&gt;&lt;EXP_YEAR&gt;20&lt;/EXP_YEAR&gt;&lt;PRESENT_FLAG&gt;2&lt;/PRESENT_FLAG&gt;&lt;INVOICE&gt;123456&lt;/INVOICE&gt;&lt;TRANS_AMOUNT&gt;1.00&lt;/TRANS_AMOUNT&gt;&lt;/TRANSACTION&gt;"/>
+         </service-input>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+   </services>
+</application>
