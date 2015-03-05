@@ -17,7 +17,7 @@ It also uses the barcode scanner on the device to scan labels.
 
 Prerequisits
 ------------
-Read documentation on integration with verifone - VMF_API_Manual_for_iOS-1-0-4-273.pdf
+Read documentation on integration with verifone - VMF_API_Manual_for_iOS-1-0-4-273.pdf.
 VMF.framework needs to be imported in the xcode project.
 Refer VMF_API_Manual_for_iOS-1-0-4-273.pdf to do below steps
     add VFi framework, libz1.2.5, external accessory , CFNetwork frameworks
