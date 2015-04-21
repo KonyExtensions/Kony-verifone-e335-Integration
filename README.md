@@ -37,7 +37,7 @@ Refer VMF_API_Manual_for_iOS-1-0-4-273.pdf to do below steps
 		<string>com.verifone.pmr.barcode</string>
 		<string>com.verifone.pmr.debug</string>
 		<string>com.verifone.pmr.zontalk</string>
-	</array>
+	</array> 
 
 Notes on steps to do in the kony application
 ---------------------------------------------
